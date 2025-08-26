@@ -1,25 +1,41 @@
-def update_clear():
-    #Remember set is unordered and dictionary is ordered
-    ep1={122:45,123:89,567:69,670:69}
-    ep2={222:67,566:90}
-    ep1.update(ep2) #It update the ep2 in the ep1
-    #ep1.clear() #It clear the whole dictionary data and give {}
-    print(ep1)
+#Dictionaries
 
-    #update_clear() #function calling.......
+#accesing single values
 
+dic={
+    12: "Shree Krishna",
+    13 :"Krishna",
+    14 :"Ramesh",
+}
+num=int(input("enter a id :"))
+print(dic[num])
 
-def pop_popitems():
-    list={101:224,102:5001,103:500,104:100,105:5000,106:800,107:8001}
-    # list.pop(106) #specific key value removed
-    list.popitem() #last key value removed
-    print(list)
-#pop_popitems()
+#accesing multiple values
 
-def delvar_delkey():
-     list={101:224,102:5001,103:500,104:100,105:5000,106:800,107:8001}
-     print("Before del key",list)
-     #del list #delete all list and throw the error
-     del list[101]
-     print("After del key",list)
-delvar_delkey()
+info={'name': 'Karan', 'age':19, 'eligible': True}
+print(info)
+print(info['name']) #It is used for access the coresponding element of name
+print(info.get('name')) #It is used for access the coresponding element of name
+
+#what if
+# print(info['name2']) #This throw the error and interrut the process
+
+print(info.get('name2')) #This throw error and give NONE in the statement
+
+print(info.keys())
+print(info.values())
+
+#Using iteration
+for key in info.keys():
+    print(info[key])
+    print(f"The value corresponding to the key {key} is{info[key]}")
+# for i in info.values():
+#     print(info[i])
+
+def new_func():
+    info={'name':'Ram',"age":19,"address":"Newroad"} # Key:value
+    print(info.items()) 
+    for key,value in info.items():
+        print(f"The corresponding value of {key} is {value}")
+        
+new_func()
