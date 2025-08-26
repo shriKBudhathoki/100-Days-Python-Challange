@@ -32,8 +32,8 @@ Topics range from the basics to some advanced Python stuff.
 .
 -✅ Day 31: Set Theory and It's Components
 - ✅Day 32: Dictionaries in python
-
+- ✅Day 33: Dictionaries Methods in python
+- ✅Day 34: For/while with else  in python
 ---
-
 ## 📂 Folder Structure
 
