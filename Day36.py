@@ -25,11 +25,19 @@ def Errors():
         print("Number is not on Index")
     # finally:
     #    print(num)
-Errors()
+# Errors()
 
 def Error():
    try:
       l = [10,15,20,25,30]
       i = int(input("enter a number"))
+      print(l[i])
+      return 1
    except:
-       print("nothing")
+       print("Sorry Try again")
+       return 0
+   finally:
+      print("I am always executed")      
+   print("I am always executed") # ← This line won’t run if return already happened above
+x=Error()
+print(x)
