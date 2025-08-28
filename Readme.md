@@ -35,6 +35,7 @@ Topics range from the basics to some advanced Python stuff.
 - ✅Day 34: Dictionaries Methods in python
 - ✅Day 35: For/while with else  in python
 - ✅Day 36: Exception Handling  in python
+- ✅Day 36: Exception Handling  in python
 ---
 ## 📂 Folder Structure
 
