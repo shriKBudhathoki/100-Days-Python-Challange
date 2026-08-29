@@ -15,9 +15,9 @@ total_percentage = ((marks1 + marks2 + marks3) / 300) * 100
 #/ 3 gives the average of three percentage values
 #/ 300 gives a decimal fraction of the total marks To turn that fraction into a percentage, multiply by 100.
 
-marks1=int(input("Enter a Subject name 1 : "))
-marks2=int(input("Enter a Subject name 2 : "))
-marks3=int(input("Enter a Subject name 3 : "))
+marks1=int(input("Enter a Subject marks 1 : "))
+marks2=int(input("Enter a Subject marks 2 : "))
+marks3=int(input("Enter a Subject marks 3 : "))
 
 total_percentage=((marks1 + marks2 + marks3) / 300) * 100
 
